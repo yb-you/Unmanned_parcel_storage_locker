@@ -1,0 +1,237 @@
+
+<Debug>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="9" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Program Files (x86)\Raisonance\Ride\Config\Resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="File" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Condexpr" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condcount" sizeCache="DD" AutoSize="1" Edit="0" Sortable="0" Visible="0" />
+							
+			</Def>
+			<Rows/>
+					
+		</Report>
+			
+	</Flags>
+	<Views>
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\main.c" Line="80" Index="0" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\RCC_config.c" Line="0" Index="1" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\GPIO_config.c" Line="0" Index="2" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\NVIC_config.c" Line="0" Index="3" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\EXTI_config.c" Line="0" Index="4" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\TIM_config.c" Line="24" Index="5" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\USART_config.c" Line="47" Index="6" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\segment.c" Line="127" Index="7" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\sensor.c" Line="6" Index="8" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\en.stsw-stm32054\STM32F10x_StdPeriph_Lib_V3.5.0\Project\STM32F10x_StdPeriph_Examples\TIM\TimeBase\stm32f10x_it.c" Line="373" Index="9" focus="1" />
+		<View File="C:\cortex_m3\microprocessorEX\project_MCU2\src\usart_data.c" Line="50" Index="10" />
+	</Views>
+	<Grep>
+		<GrepIncludeSub>yes</GrepIncludeSub>
+		<GrepMatchCase>no</GrepMatchCase>
+		<GrepMatchWhole>no</GrepMatchWhole>
+		<GrepRegExp>no</GrepRegExp>
+		<GrepReplaceMode>no</GrepReplaceMode>
+		<GrepFileTypes>
+			<GrepFileTypesValue>*.c;*.h</GrepFileTypesValue>
+			<GrepFileType>*.c;*.h</GrepFileType>
+		</GrepFileTypes>
+		<GrepFindWhat>
+			<GrepFindWhatValue>password</GrepFindWhatValue>
+			<GrepFindStr>#define spi1</GrepFindStr>
+			<GrepFindStr>#define USART3</GrepFindStr>
+			<GrepFindStr>108000000</GrepFindStr>
+			<GrepFindStr>108mhz</GrepFindStr>
+			<GrepFindStr>72</GrepFindStr>
+			<GrepFindStr>bit_set</GrepFindStr>
+			<GrepFindStr>delay_m</GrepFindStr>
+			<GrepFindStr>EXIT</GrepFindStr>
+			<GrepFindStr>EXT_CLOCK_SOURCE_12M</GrepFindStr>
+			<GrepFindStr>FLASH_Latency_2</GrepFindStr>
+			<GrepFindStr>g_pfnVectors</GrepFindStr>
+			<GrepFindStr>gpio_initstructure_usart</GrepFindStr>
+			<GrepFindStr>GPIO_Mode_AF_PP</GrepFindStr>
+			<GrepFindStr>GPIO_Mode_Out_PP</GrepFindStr>
+			<GrepFindStr>GPIO_Pin_4</GrepFindStr>
+			<GrepFindStr>gpio_set</GrepFindStr>
+			<GrepFindStr>hclk</GrepFindStr>
+			<GrepFindStr>HSEStatus = RCC->CR & RCC_CR_HSERDY</GrepFindStr>
+			<GrepFindStr>password</GrepFindStr>
+			<GrepFindStr>RCC_APB1Periph_TIM2</GrepFindStr>
+			<GrepFindStr>RCC_APB1PeriphClockCmd</GrepFindStr>
+			<GrepFindStr>RCC_APB2Periph_AFIO</GrepFindStr>
+			<GrepFindStr>RCC_APB2Periph_SPI1</GrepFindStr>
+			<GrepFindStr>RCC_APB2Periph_USART1</GrepFindStr>
+			<GrepFindStr>RCC_APB2PeriphClockCmd</GrepFindStr>
+			<GrepFindStr>RCC_CFGR_PPRE1_DIV2</GrepFindStr>
+			<GrepFindStr>RCC_ClocksTypeDef</GrepFindStr>
+			<GrepFindStr>RCC_Configuration</GrepFindStr>
+			<GrepFindStr>RCC_CR_HSEON</GrepFindStr>
+			<GrepFindStr>RCC_GetClocksFreq</GrepFindStr>
+			<GrepFindStr>RCC_HCLK_Div16</GrepFindStr>
+			<GrepFindStr>RCC_HCLK_Div4</GrepFindStr>
+			<GrepFindStr>RCC_PCLK1Config</GrepFindStr>
+			<GrepFindStr>rcc_pllmul_</GrepFindStr>
+			<GrepFindStr>reset</GrepFindStr>
+			<GrepFindStr>setreset</GrepFindStr>
+			<GrepFindStr>setsysclockto72</GrepFindStr>
+			<GrepFindStr>SPI_CPOL_Low</GrepFindStr>
+			<GrepFindStr>SPI_Direction_2Lines_FullDuplex</GrepFindStr>
+			<GrepFindStr>SPI_I2S_FLAG_RXE</GrepFindStr>
+			<GrepFindStr>SPI_I2S_FLAG_RXNE</GrepFindStr>
+			<GrepFindStr>SPI_I2S_ReceiveData</GrepFindStr>
+			<GrepFindStr>SPI_I2S_SendData</GrepFindStr>
+			<GrepFindStr>SPI_Mode_Master</GrepFindStr>
+			<GrepFindStr>spi1_clk</GrepFindStr>
+			<GrepFindStr>SPI1_PIN_SCK</GrepFindStr>
+			<GrepFindStr>SPIy_CLK</GrepFindStr>
+			<GrepFindStr>stm32f10x_map</GrepFindStr>
+			<GrepFindStr>STM32F10X_MD</GrepFindStr>
+			<GrepFindStr>TIM_CKD_DIV1</GrepFindStr>
+			<GrepFindStr>TIM_IT_Update</GrepFindStr>
+			<GrepFindStr>TIM_OC2Init</GrepFindStr>
+			<GrepFindStr>TIM_OCMode</GrepFindStr>
+			<GrepFindStr>TIM_TimeBaseInit</GrepFindStr>
+			<GrepFindStr>USART_GetCharacter</GrepFindStr>
+			<GrepFindStr>USART1_Init</GrepFindStr>
+			<GrepFindStr>USART3->DR</GrepFindStr>
+		</GrepFindWhat>
+		<GrepFindWhere>
+			<GrepFindWhereValue>C:\Users\CHP\Desktop\마프_박창현\수업PPT\8주차</GrepFindWhereValue>
+			<GrepPathStr>Application Files</GrepPathStr>
+			<GrepPathStr>Application Path</GrepPathStr>
+			<GrepPathStr>C:\cortex_m3</GrepPathStr>
+			<GrepPathStr>C:\Users\CHP\Desktop\마프_박창현\수업PPT\5주차\Project\(Interrupt)내부KEY를이용한내부LED제어</GrepPathStr>
+			<GrepPathStr>C:\Users\CHP\Desktop\마프_박창현\수업PPT\5주차\Project\(Timer)Timer를이용하여1초간격으로내부LED토글</GrepPathStr>
+			<GrepPathStr>C:\Users\CHP\Desktop\마프_박창현\수업PPT\7주차\Project\(PWM)모터속도를6단계에거쳐상승시키는코드</GrepPathStr>
+			<GrepPathStr>C:\Users\CHP\Desktop\마프_박창현\수업PPT\8주차</GrepPathStr>
+		</GrepFindWhere>
+		<GrepReplaceWhat>
+			<GrepReplaceWhatValue/>
+		</GrepReplaceWhat>
+	</Grep>
+	<FindStrings>
+		<Find>k</Find>
+		<Find>spiz_buffer_rx</Find>
+		<Find>SPIy_Buffer_Rx is</Find>
+		<Find>TxIdx</Find>
+		<Find>SPIy_Buffer_Rx</Find>
+		<Find>SPIy_Buffer_Tx</Find>
+		<Find>KEY</Find>
+		<Find>RxIdx</Find>
+		<Find>BufferSize</Find>
+		<Find>SPI2</Find>
+		<Find>spiz</Find>
+		<Find>spi1</Find>
+		<Find>spiy</Find>
+		<Find>spi</Find>
+		<Find>spy</Find>
+		<Find>USART_GetCharacter</Find>
+		<Find>LED</Find>
+		<Find>PWM</Find>
+		<Find>EXIT_configuration</Find>
+		<Find>EXTI_configuration</Find>
+		<Find>CCMR</Find>
+		<Find>CCMR1이</Find>
+		<Find>CCR1_Val</Find>
+		<Find>gpio_initstructure</Find>
+		<Find>rcc_cfgr_pllmull9</Find>
+		<Find>#define hse_value</Find>
+		<Find>#ㅇㄷ랴ㅜㄷ ㅗㄴㄷ_ㅍ미ㅕㄷ</Find>
+		<Find>flash</Find>
+		<Find>HSE</Find>
+		<Find>ENABLE HSE</Find>
+		<Find>SystemCoreClockUpdate</Find>
+		<Find>SystemInit</Find>
+		<Find>init</Find>
+		<Find>mhz</Find>
+		<Find>SetSysClock</Find>
+		<Find>SetSysClock(void)</Find>
+		<Find>STM32F10X_MD</Find>
+		<Find>SYSCLK_FREQ_72MHz</Find>
+		<Find>#define</Find>
+		<Find>md</Find>
+		<Find> RCC->CR &slash;= ((uint32_t)RCC_CR_HSEON);</Find>
+		<Find>SetSysClockTo</Find>
+		<Find>TIM_CounterMode_Up</Find>
+		<Find>72</Find>
+		<Find>TIM</Find>
+		<Find>TIM2</Find>
+		<Find>TIM1</Find>
+		<Find>rcc_cfgr_ppre2_div</Find>
+		<Find>SetSysClockTo72</Find>
+		<Find>RCC_CR_HSEON</Find>
+		<Find>TIM_PrescalerConfig</Find>
+		<Find>gpio_set</Find>
+		<Find>reset</Find>
+		<Find>TIM_OCInitStructure</Find>
+		<Find>TIM_TimeBaseStructure</Find>
+		<Find>repetition</Find>
+		<Find>PrescalerValue</Find>
+		<Find>EXITx_IRQHandler()</Find>
+		<Find>EXTI_Trigger_Rising_Falling</Find>
+		<Find>EXTI_Mode_Interrupt</Find>
+		<Find>NVIC_PriorityGroup_0</Find>
+		<Find>GPIO_TypeDef</Find>
+		<Find>GPIOB</Find>
+		<Find>^=</Find>
+		<Find>odr</Find>
+		<Find>NVIC_InitTypeDef</Find>
+		<Find>EXTI_InitTypeDef</Find>
+		<Find>NVIC_SetPriority</Find>
+		<Find>EXTI_Line1</Find>
+		<Find>EXTI_Line0</Find>
+		<Find>IRQH</Find>
+		<Find>eval</Find>
+		<Find>led1</Find>
+		<Find>stm32_eval.h</Find>
+		<Find>SysTick_Handler</Find>
+		<Find>irqt</Find>
+		<Find>irq</Find>
+		<Find>GPIO_Pin_0</Find>
+		<Find>GPIO_Mode_IN_FLOATING</Find>
+		<Find>GPIO_Mode_IPU</Find>
+		<Find>if(GPIO_ReadInputDataBit</Find>
+		<Find>if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0) == (uint8_t)Bit_SET)</Find>
+		<Find>GPIO_ResetBit</Find>
+		<Find>Bit_Set</Find>
+		<Find>GPIO_ReadInputDataBit</Find>
+		<Find>idr</Find>
+		<Find>mode_gpio</Find>
+		<Find>GPIO_Mode</Find>
+		<Find>bit_reset</Find>
+		<Find>delay</Find>
+		<Find>GPIO_Init(</Find>
+		<Find>GPIO_Init</Find>
+		<Find>RCC_ClocksTypeDef</Find>
+		<Find>configuration</Find>
+		<Find>rcc</Find>
+		<Find>RCC_Configuration</Find>
+		<Find>BOARD_DEF_MANGO_M32</Find>
+		<Find>assert_failed</Find>
+		<Find>#define APB2PERIPH_BASE</Find>
+		<Find>APB2PERIPH_BASE</Find>
+		<Find>GPIOA_BASE</Find>
+		<Find>gpioa </Find>
+		<Find>gpioa</Find>
+		<Find>TIM2_IRQHandler</Find>
+	</FindStrings>
+	<ReplaceStrings>
+		<Find>SPI</Find>
+		<Find>SPIz</Find>
+		<Find>SPIy</Find>
+		<Find>SPI2</Find>
+		<Find>SPI1</Find>
+		<Find>PWM</Find>
+		<Find>LED</Find>
+		<Find>KEY</Find>
+	</ReplaceStrings>
+</Debug>
